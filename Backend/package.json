@@ -1,13 +1,19 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
-  "keywords": ["Ayush","Youtube"],
+  "keywords": [
+    "Ayush",
+    "Youtube"
+  ],
   "author": "Ayush",
   "license": "ISC",
-  "description": "A Complete Backend Project"
+  "description": "A Complete Backend Project",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
