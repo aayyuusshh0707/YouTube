@@ -10,6 +10,7 @@ import fs from "fs";
   });
 });
 
+
 const uploadToCloudinary = async (localFilePath) => {
 
   try {

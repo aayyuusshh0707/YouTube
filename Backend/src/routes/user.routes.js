@@ -1,11 +1,10 @@
 import { Router } from "express";
 import registerUser from "../controllers/user.controllers.js";
-import {upload } from "../middlewares/multer.middleware.js";
-
+import { upload } from "../middlewares/multer.middleware.js";
 
 const router = Router();
 
-router.route("/register").post(
+export const register = router.route("/register").post(
   //upload with multer
   //upload.fields() is used to upload multiple files
   upload.fields([

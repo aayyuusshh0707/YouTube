@@ -25,7 +25,5 @@ app.use("/api/users", router);   // we seprate the routes so , we use middleware
 export default  app;
 
 //app.js operations are:
-//1. call db function
-//2. call dotenv.config()
-//3. use cors, json, urlencoded, static, cookieParser (middleware)
-//4. call app.listen() function
+//1. use cors, json, urlencoded, static, cookieParser (middleware)
+

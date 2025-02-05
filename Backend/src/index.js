@@ -15,3 +15,7 @@ connectDB()
   .catch((error) => {
     console.error("Error connecting to MongoDB !!", error);
   });
+  
+//1. call db function
+//2. call dotenv.config()
+//3. call app.listen() function
